@@ -1,77 +1,102 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Wired - Concerts</title>
-  </head>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Wired - Concerts</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="theme.css">
+  <link rel="stylesheet" type="text/css" href="components.css">
+</head>
   <body>
     <header>
+      <div class="logo-container">
+        <img src="assets/logo.png" alt="Wired Logo" width="125">
+      </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="albums.html">Albums</a></li>
-          <li><a href="concerts.html">Concerts</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="albums.html">ALBUMS</a></li>
+          <li><a href="concerts.html">CONCERTS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav>
-      <h1>Wired</h1>
-      <img src="./assets/banner_concerts.png" alt="Wired on stage"/a>
-      <h1>Hard Rock for the Digital Age</h1>
-      <h1>Next Concerts Dates</h1>
+      <ul class="icons-container">
+        <li>
+          <a class="fa fa-facebook" href="#"></a>
+        </li>
+        <li>
+          <a class="fa fa-twitter" href="#"></a>
+        </li>
+        <li>
+          <a class="fa fa-linkedin" href="#"></a>
+        </li>
+        <li>
+          <a class="fa fa-google" href="#"></a>
+        </li>
+      </ul>
     </header>
-
+    <div class="banner-container">
+      <img class="banner-img" src="assets/banner_concerts.png" alt="Band On Stage"/>
+      <div class=banner-title>
+        <h1>HARD ROCK FOR THE DIGITAL AGE</h1>
+      </div>
+    <div class="banner-txt">
+      <h2>NEXT CONCERT DATES</h2>
+    </div>
+  </div>
+  <main>
     <table>
       <tbody>
         <tr>
           <td>17 Feb.</td>
      	    <td>Lucerna Great Hall</td>
          	<td>Prague, Czech Republic</td>
+          <td><span class="fa fa-plus"></span></td>
         </tr>
-
         <tr>
           <td>20 Feb.</td>
           <td>Hala Lokomotivy</td>
           <td>Pilsen, Czech Republic</td>
+          <td><span class="fa fa-plus"></span></td>
         </tr>
-
         <tr>
           <td>01 Mar.</td>
          	<td>Crocus City Hall</td>
           <td>Moscow, Russsia</td>
+          <td><span class="fa fa-plus"></span></td>
         </tr>
-
         <tr>
           <td>10 May.</td>
           <td>02 Academy</td>
           <td>Bournemouth, United Kingdom</td>
+          <td><span class="fa fa-plus"></span></td>
         </tr>
-
         <tr>
           <td>18 May.</td>
           <td>Cambridge Corn Exchange </td>
           <td>Cambridge, United Kingdom</td>
+          <td><span class="fa fa-plus"></span></td>
         </tr>
-
         <tr>
           <td>23 May.</td>
          	<td>Hedon</td>
          	<td>Zwolle, Netherlands</td>
+          <td><span class="fa fa-plus"></span></td>
         </tr>
-
         <tr>
           <td>18 Nov.</td>
          	<td>L'Olympia Paris</td>
-          <td>	Paris, France</td>
+          <td>Paris, France</td>
+          <td><span class="fa fa-plus"></span></td>
         </tr>
       </tbody>
     </table>
-
-
-    <br/>
-    <footer>
-      Copyright 2018
-    </footer>
-
-  </body>
+  </main>
+  <footer>
+    <p>&copy Wired 2018</p>
+  </footer>
+</body>
 </html>
