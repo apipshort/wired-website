@@ -3,54 +3,90 @@
   <head>
     <meta charset="utf-8">
     <title>Wired - Albums</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" type="text/css" href="components.css">
   </head>
   <body>
     <header>
+      <div class="logo-container">
+        <img src="assets/logo.png" alt="Wired Logo" width="125">
+      </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="albums.html">Albums</a></li>
-          <li><a href="concerts.html">Concerts</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a class="current" href="albums.html">ALBUMS</a></li>
+          <li><a href="concerts.html">CONCERTS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav>
-      <img src="./assets/banner_albums.png" alt="Wired Logo"/a>
-
-      <h1>Hard Rock for the Digital Age</h1>
-      <h1>Our Albums</h1>
+      <ul class="icons-container">
+        <li><a class="fa fa-facebook" href="#"></a></li>
+        <li><a class="fa fa-twitter" href="#"></a></li>
+        <li><a class="fa fa-linkedin" href="#"></a></li>
+        <li><a class="fa fa-google" href="#"></a></li>
+      </ul>
     </header>
-
-    <div>
-      <div>
-        <img src="./assets/albums/album_1.png" alt="Album 1"/>
-        <h2>Wired #1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="banner-container">
+      <img  class="banner-img" src="assets/banner_albums.png" alt="Huge Wired Logo"/a>
+      <div class=banner-title>
+        <h1>HARD ROCK FOR THE DIGITAL AGE</h1>
       </div>
-
-      <div>
-        <img src="./assets/albums/album_2.png" alt="Album 1"/>
-        <h2>Wired #2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-
-      <div>
-        <img src="./assets/albums/album_3.png" alt="Album 3"/>
-        <h2>Wired #3</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-
-      <div>
-        <img src="./assets/albums/album_4.png" alt="Album 4"/>
-        <h2>Wired #4</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="banner-txt">
+        <h1>Our Albums</h1>
       </div>
     </div>
-
-    <br/>
+    <main>
+      <div class="img-txt-container">
+        <div class="img-container">
+          <img src="assets/albums/album_1.png" alt="Album 1" width="293"/>
+        </div>
+        <div class="txt-container">
+          <h2>Wired #1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <span class="fa fa-plus"></span>
+        </div>
+      </div>
+      <div class="img-txt-container">
+        <div class="img-container">
+          <img src="./assets/albums/album_2.png" alt="Album 1" width="293"/>
+        </div>
+        <div class="txt-container">
+          <h2>Wired #2</h2>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <span class="fa fa-plus"></span>
+        </div>
+      </div>
+      <div class="img-txt-container">
+        <div class="img-container">
+          <img src="./assets/albums/album_3.png" alt="Album 3" width="293"/>
+        </div>
+        <div class="txt-container">
+          <h2>Wired #3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <span class="fa fa-plus"></span>
+        </div>
+      </div>
+      <div class="img-txt-container">
+        <div class="img-container">
+          <img src="./assets/albums/album_4.png" alt="Album 4" width="293"/>
+        </div>
+        <div class="txt-container">
+          <h2>Wired #4</h2>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <span class="fa fa-plus"></span>
+        </div>
+      </div>
+    </main>
     <footer>
-      Copyright 2018
+      <p>&copy Wired 2018</p>
     </footer>
-
   </body>
 </html>
