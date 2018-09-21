@@ -1,5 +1,6 @@
-/*  Style page for Wired website
-header styles */
+/*  Style page for Wired website */
+
+/* header styles */
 header {
     display: flex;
     max-width: 880px;
@@ -26,6 +27,11 @@ nav{
   flex: auto;
   align-self: flex-end;
   text-align: center;
+}
+
+nav a.current {
+    color: #939495;
+    text-decoration: underline;
 }
 
 .icons-container{
@@ -101,15 +107,15 @@ nav{
 }
 
 .txt-container p{
-  border-top: 1px #222324 solid ;
-  padding-top: 10px;
   margin: 8px 0;
+  padding-top: 10px;
+  border-top: 1px #222324 solid ;
 }
 
 /* table styles */
 table{
-  width: 100%;
   border-collapse: collapse;
+  width: 100%;
 }
 
 td{
@@ -119,7 +125,7 @@ td{
 }
 
 td:first-child{
-  font-weight: 600; /* 400?*/
+  font-weight: 400; /* 600?*/
 }
 
 td:last-child{
@@ -128,6 +134,26 @@ td:last-child{
 
 .banner-txt h2{
   margin: 0 auto;
+}
+
+.contact-container {
+  font-size: 1.4em;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-container a {
+  color: #939495;
+  text-decoration: underline;
+  margin: 0px 0px;
+}
+
+.contact-container a:hover {
+  color: #222324;
+}
+
+.contact-container p {
+  margin: 0px 0px;
 }
 
 /* footer styles */
@@ -147,7 +173,7 @@ main{
 footer{
   flex-shrink: 0;
   background: #222324;
-  color: white;
+  color: #ffffff;
   padding: 25px;
   text-align: center;
 }

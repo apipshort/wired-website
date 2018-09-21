@@ -1,4 +1,5 @@
-/* stylesheet Wired */
+/* Stylesheet#2 for Wired Website */
+
 body {
     color: #222324;
     font-family: 'Rubik', sans-serif;
@@ -27,11 +28,11 @@ a {
 }
 /* visited link */
 a:visited {
-    color: #222324;
+    color: *#222324;
 }
 /* mouse over link */
 a:hover {
-    color: #222324;
+    color: *#222324;
     text-decoration: underline;
 }
 /* selected link */
